@@ -1,0 +1,18 @@
+.sectionDelete {
+  background-color: #f3f5c1;
+  margin: 50px 0;
+}
+.deleteFileContainer {
+  box-sizing: border-box;
+  padding: 15px;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.message {
+  margin-top: 10px;
+  font-weight: 500;
+}

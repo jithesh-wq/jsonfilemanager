@@ -1,0 +1,21 @@
+.numberContainer {
+  width: 25px;
+  height: 25px;
+  margin: 4px;
+  border-radius: 20px;
+  background-color: #4747b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.pageNumber {
+  font-size: 13px;
+}
+.numberContainer:active {
+  background-color: #6a6aaa;
+}
+.numberContainer:hover {
+  background-color: white;
+  color: black;
+}

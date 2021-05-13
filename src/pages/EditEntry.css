@@ -1,0 +1,44 @@
+.formContainer {
+  margin-top: 100px;
+  margin-left: 40vw;
+  padding: 10px;
+}
+.modifyForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dataInput {
+  border: 2px solid #4747b9;
+  width: 300px;
+  height: 35px;
+  border-radius: 35px;
+  padding: 2px;
+  box-sizing: border-box;
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+.dataInput:focus {
+  outline: none;
+}
+.saveButton {
+  width: 70px;
+  height: 30px;
+  background-color: #4747b9;
+  color: white;
+  border-radius: 50px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 100px;
+}
+label {
+  font-size: 15px;
+}

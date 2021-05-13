@@ -1,0 +1,47 @@
+.section1 {
+  margin: 5px 10px;
+}
+.functionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.section2 {
+  background-color: #f3f5c1;
+  margin: 5px 0;
+}
+.dataContainer {
+  box-sizing: border-box;
+  padding: 15px;
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.section3 {
+  text-align: center;
+  background-color: rgb(131, 123, 123);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+.pageNumbers {
+  display: flex;
+  flex-direction: row;
+}
+.currentPage {
+  margin-bottom: 5px;
+  font-size: 10px;
+}
